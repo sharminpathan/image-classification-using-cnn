@@ -32,7 +32,7 @@ Preprocessing:
   
 Model:
 - The model contains three files namely, train.prototxt, deploy.prototxt, and solver.prototxt
-- Details about the layers in our model are as follows
+- Details about the layers in our model are as follows 
   conv1 - kernel size: 5 - stride: 1 (convolution layer)
   pool1 - kernel size: 3 - stride: 2 (pooling)
   relu1 (activation layer on pool1)
