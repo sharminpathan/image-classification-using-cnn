@@ -1,2 +1,2 @@
 
-- It contains the references we used to build this classifier.
+It contains the references we used to build CIFAR-10 Image classifier.
