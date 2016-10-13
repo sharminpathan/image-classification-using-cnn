@@ -19,14 +19,6 @@ Preprocessing:
 - LMDB requires text files that contain the image paths and labels for the training and validation sets.
 - Xtrain.txt and Xval.txt have the corressponding image lists extracted from S3 for the training and validation images. 70% of the image dataset was used for training and the rest 30% was used as the validation set.
 - LMDBs were created using the following commands:
-Technologies Used:
-
-    <path to caffe>/build/
-    Caffe
-    Apache Spark 2.0
-    CUDA
-    CuDNN
-    
 
     <path to caffe>/build/tools/convert_imageset \
     --shuffle \
