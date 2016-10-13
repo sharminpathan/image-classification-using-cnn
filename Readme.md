@@ -1,4 +1,4 @@
-Team name: minions
+# minions
 
 Team members: Chirag Jain, Sharmin Pathan
 
