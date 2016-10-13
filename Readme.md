@@ -15,7 +15,7 @@ Technologies Used:
 
 
 Preprocessing:
-- First step is to getting data in. For this, we used data layer concept which uses LMDB as a database. 
+- First step is to get the data. For this, we used data layer concept which uses LMDB as a database. 
 - LMDB requires text files that contain image paths and labels for the training and validation sets.
 - Xtrain.txt and Xval.txt contain the image lists extracted from S3 for the training and validation images. 70% of the X_train dataset was used for training and the rest 30% for validation.
 - LMDBs were created using the following commands:
