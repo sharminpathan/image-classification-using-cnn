@@ -10,11 +10,6 @@ from pyspark import SparkContext
 from pyspark.sql import SparkSession
 from scipy import misc
 
-spark = SparkSession\
-		.builder\
-		.appName("ImageClassification")\
-		.getOrCreate()
-
 np.set_printoptions(threshold=np.inf)
 def average(pixel):
 	return 0.299*pixel[0] + 0.587*pixel[1] + 0.114*pixel[2]
