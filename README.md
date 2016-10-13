@@ -20,21 +20,8 @@ Preprocessing:
 - Xtrain.txt and Xval.txt have the corressponding image lists extracted from S3 for the training and validation images. 70% of the image dataset was used for training and the rest 30% was used as the validation set.
 - LMDBs were created using the following commands:
 
-    <path to caffe>/build/tools/convert_imageset \
-    --shuffle \
-    <path to the images> \
-    Xtrain.txt \
-    trainLmdb
+    path-to-caffe/build/tools/convert_imageset --shuffle path-to-the-images Xtrain.txt trainLmdb
     
-    <path to caffe>/build/tools/convert_imageset \
-    --shuffle \
-    <path to the images> \
-    Xval.txt \
-    valLmdb
-    
+    path-to-caffe/build/tools/convert_imageset --shuffle path-to-the-images Xval.txt valLmdb
 
-Flow:
-- The above commands create training and validation LMDBs named trainLmdb and valLmdb respectively.
-
-- The project is built around Caffe. Link to install Caffe: http://caffe.berkeleyvision.org/installation.html
-- 
+- The above commands c
