@@ -61,7 +61,7 @@ Prediction:
 - predict.py handles the code to make the predictions. It takes the deploy.prototxt, model, mean.binaryproto, images from the test dataset. It defines the net solver and calculates predictions on the images and stores the predictions in the finalOutput.txt
 
 
-Our approach:
+Tuning the accuracy:
 - We referred a few papers and other resources listed under the reference submodule to help define our model. We tried a few models wth different combination of layers and picked the one that gave us the best accuracy. We tried tuning a few parameters of the layers in train.prototxt, mostly changing the batch size, kernel size, stride, etc to improve accuracy.
 - The solver parameters were tuned after every pass. We dropped the learning rate after the first iteration and increased no. of epochs. We fine tuned the second pass using the model that gave us an accuracy of 71.11% in the first pass. We made three passes to achieve the accuracy of ........
 - Tried to make it distributed.
