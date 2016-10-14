@@ -70,7 +70,8 @@ Tuning the accuracy:
 Stuff we tried:
 - Converted the small data set to grayscale and performed training and testing on grayscale version of the imageset. We even performed edge detection on the imageset and performed training and testing on these images.
 - We got better accuracy on the small dataset with grayscale and edge detection images compared to the original colored images.
+- Codes for these files are in the Iage Preprocessing branch.
 
 
 Challenges faced:
-- Theres not much documentation for caffe on spark. Had problems setting it up and so couldn't efficiently do the implementation.
+- Theres not much documentation for caffe on spark. Had problems setting it up and so couldn't efficiently do the implementation. We did the GPU implementation and even tried setting up Caffe on Spark.
