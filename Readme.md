@@ -70,7 +70,7 @@ Tuning the accuracy:
 Stuff we tried:
 - Converted the small data set to grayscale and performed training and testing on grayscale version of the imageset. We even performed edge detection on the imageset and performed training and testing on these images.
 - We got better accuracy on the small dataset with grayscale and edge detection images compared to the original colored images.
-- Codes for these files are in the Iage Preprocessing branch.
+- Codes for these files are in the imagePreprocessing branch.
 
 
 Challenges faced:
