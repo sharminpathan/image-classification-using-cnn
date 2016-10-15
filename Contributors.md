@@ -18,4 +18,7 @@ Chirag Jain:
 - Building the CNN model
 - Tuning parameters for accuracy
 - Training and testing
-- FIne tuning the model
+- Fine tuning the model
+- Tried CaffeOnSpark
+- Reading research papers based on CIFAR-10 Image Classification
+
