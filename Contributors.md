@@ -11,6 +11,8 @@ Sharmin Pathan:
 - Tuning parameters for accuracy
 - Training and testing
 - Finetuning the model
+- Tried setting up and implementing caffe on Spark
+- Implementation of models from research papers
 
 
 Chirag Jain:
